@@ -1,0 +1,72 @@
+/* 
+   STEP 8: CSS VARIABLES (DESIGN TOKENS)
+   Pre-filled to save time!
+*/
+:root {
+    --bg-color: #fdfdfd;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --accent: #9a9a9a;
+    --border: #eeeeee;
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', sans-serif;
+    --spacing-unit: 1.5rem;
+}
+
+/* 
+   STEP 16: DARK MODE OVERRIDES
+   TODO: Define dark theme variables
+*/
+
+
+/* 
+   STEP 9: RESET & BASE STYLES
+   Pre-filled to save time!
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 2rem 1rem;
+}
+
+/* 
+   STEP 10: LAYOUT CONTAINER
+   TODO: Max-width and centering
+*/
+
+
+/* 
+   STEP 11: HEADER STYLING (Flexbox)
+   TODO: Use Flexbox for name and contact
+*/
+
+
+/* 
+   STEP 12: SECTION TYPOGRAPHY
+   TODO: Style .section-title and items
+*/
+
+
+/* 
+   STEP 13: GRID SYSTEM
+   TODO: Create 2-column grid for Skills/Education
+*/
+
+
+/* 
+   STEP 14: RESPONSIVENESS (Media Queries)
+   TODO: Stack columns on mobile
+*/
+
+
+/* STEP 15.1: FLOATING BUTTON STYLING */
+/* TODO: Fixed position for theme button */

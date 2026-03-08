@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Starter | RevoU MasterClass</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 
+        STEP 1: THE CONTAINER
+        The 'cv-container' centers our content and limits its width.
+    -->
+    <div class="cv-container">
+        
+        <!-- 
+            STEP 2: THE HEADER (Identity & Contact)
+            Live Edit: Change the name and role to your own!
+        -->
+        <header class="cv-header">
+            <div class="header-content">
+                <h1 class="name">[YOUR NAME HERE]</h1>
+                <div class="header-top">
+                    <p class="role">[YOUR ROLE HERE]</p>
+                </div>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a> / <a href="#">GitHub</a> / <a href="#">Portfolio</a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>yourname@email.com</p>
+                <p>Location, Country</p>
+            </div>
+        </header>
+
+        <!-- 
+            STEP 3: THE MAIN CONTENT
+            All sections are already here. we will focus on STYLING them in CSS.
+        -->
+        <main class="cv-main">
+            
+            <!-- STEP 4: EXPERIENCE SECTION -->
+            <section class="cv-section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Software Engineer Intern</h3>
+                        <span class="item-date">Jan 2026 — Present</span>
+                    </div>
+                    <p class="item-org">RevoU International</p>
+                    <p class="item-desc">Building scalable web applications and collaborating with senior engineers to implement modern UI components.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Full Stack Development Student</h3>
+                        <span class="item-date">2025 — 2026</span>
+                    </div>
+                    <p class="item-org">RevoU University</p>
+                    <p class="item-desc">Completed intensive training in modern web technologies, focusing on semantic HTML and clean CSS.</p>
+                </div>
+            </section>
+
+            <!-- STEP 5: PROJECTS SECTION -->
+            <section class="cv-section">
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3 class="item-title"><a href="#">MasterClass Portfolio Demo</a></h3>
+                        <p class="item-desc">A premium, CV-style portfolio template designed for RevoU's First Portfolio Webinar.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="item-title"><a href="#">Eco-Track Dashboard</a></h3>
+                        <p class="item-desc">A real-time environmental monitoring tool built during the RevoU Full Stack capstone project.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STEP 6: COLUMN LAYOUT (Expertise & Education) -->
+            <section class="cv-section inline-sections">
+                <div class="sub-section">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>Semantic HTML5</li>
+                        <li>Modern CSS & Flexbox</li>
+                        <li>Responsive Web Design</li>
+                        <li>Git & Version Control</li>
+                    </ul>
+                </div>
+                <div class="sub-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-item">
+                        <h3 class="item-title">B.S. in Computer Science</h3>
+                        <p class="item-org">RevoU University, 2026</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- STEP 7: THE FOOTER -->
+        <footer class="cv-footer">
+            <p>&copy; 2026 [YOUR NAME]. Personal Portfolio Demo.</p>
+        </footer>
+    </div>
+
+    <!-- STEP 15: THE TOGGLE BUTTON (Floating) -->
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">Theme</button>
+
+    <!-- STEP 17: ADDING THE SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
